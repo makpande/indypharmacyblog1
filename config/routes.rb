@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+  resources :topics
+  resources :posts
   devise_for :users
   root to: 'welcome#index'
 
