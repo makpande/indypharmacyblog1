@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
 
+
+  resources :topics do
+    resources :posts, except: [:index]
+  end
   
-  resources :topics
-  resources :posts
   devise_for :users
   root to: 'welcome#index'
 

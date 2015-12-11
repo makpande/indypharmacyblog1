@@ -33,6 +33,7 @@ gem 'faker' #for fake data
 gem 'figaro', '1.0' #for storing confidential information
 gem 'pry'
 gem 'redcarpet'
+gem 'active_model_serializers'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
